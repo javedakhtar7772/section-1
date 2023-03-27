@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>
+        
+        body{
+            background:linear-gradient(to right,skyblue,white,skyblue);
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden;
+        }
+        .main{
+            width: 1330px;
+            height: 1550px;
+            background-color:skyblue;
+            border: 2px solid skyblue;
+            margin-left: 10px;
+            margin-right: 7px;
+            box-sizing: border-box;
+            padding: 0px;
+            /* margin: 0px; */
+        }
+        .box1{   /* Box1 start*/
+            width:100%;
+            height: 40px;
+            border: 2px solid black;
+            background-color: black;
+            /* display: inline-block; */
+            /* margin-top: 1px; */
+            float: left;
+            /* border: 2px solid gold; */
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        .subbox1{
+            width: 200px;
+            height: 40px;
+            color: white;
+            margin-left: 145px;
+            float: left;
+            margin-top: 10px;
+        }
+        .subbox2{
+            width: 200px;
+            height: 40px;
+            color: white;
+            margin-left: 100px;
+            float:left;
+            margin-top: 10px;
+        }
+        .subbox3{
+            /* width: 200px; */
+            height: 40px;
+            color: white;
+            margin-left: 200px;
+            float: left;
+            margin-top: 10px;
+        }
+        .subbox4{
+            /* width: 200px; */
+            height: 40px;
+            color: white;
+            margin-left: 8px;
+            float: left;
+            margin-top: 10px;
+        }
+        .subbox5{
+            /* width: 200px; */
+            height: 40px;
+            color: white;
+            margin-left: 8px;
+            float: left;
+            margin-top: 10px;
+        }
+        .subbox6{
+            width: 20px;
+            height: 40px;
+            color: white;
+            margin-left: 8px;
+            float: left;
+            margin-top: 10px;
+        }
+        .subbox7{
+            /* width: 60px; */
+            height: 20px;
+            color:white;
+            margin-left: 160px;
+            float: left;
+            margin-top: 10px;
+        }  /* Box1 end*/
+        .box2{   /* Box2 start*/
+            width:100%;
+            height: 70px;
+            background-color: white;
+            border: 2px solid white;
+            /* margin-top: 5px; */
+            float: left;
+            box-sizing: border-box;
+        }
+        .subbox21{
+           margin-top: 10px;
+           margin-left: 150px;
+           float: left;  
+        }
+        .subbox22{
+           margin-top: 23px;
+           /* margin-left: 1px; */
+           float: left;  
+           /* border: 1px solid gray; */
+        }
+        .subbox23{
+            margin-top: 23px;
+            float:left;
+            margin-left :150px; 
+            /* border: 1px solid gray; */
+        }
+        .subbox24{
+            margin-top: 23px;
+            float:left;
+            margin-left :50px; 
+            /* border: 1px solid gray; */
+        }
+        .subbox25{
+            margin-top: 23px;
+            float:left;
+            margin-left :50px; 
+            /* border: 1px solid gray; */
+        }
+        .subbox26{
+            margin-top: 23px;
+            float:left;
+            margin-left :50px; 
+            /* border: 1px solid gray; */
+        }
+        .subbox27{
+            margin-top: 23px;
+            float:left;
+            margin-left :50px; 
+            /* border: 1px solid gray; */
+        }
+        .subbox28{
+            margin-top: 23px;
+            float:left;
+            margin-left :50px; 
+            /* border: 1px solid gray; */
+        }
+        .subbox29{
+            margin-top: 23px;
+            float:left;
+            margin-left :50px; 
+            /* border: 1px solid gray; */
+        }
+        .subbox210{
+            margin-top: 23px;
+            float:left;
+            margin-left :50px; 
+            /* border: 1px solid gray; */
+        }
+        .subbox211{
+            margin-top: 23px;
+            float:left;
+            margin-left :50px; 
+            /* border: 1px solid gray; */
+        }
+        .box3{
+            width: 100%;
+            height: 380px;
+            border: 2px solid white;
+            float: left;
+            background-image: url(laptop1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            box-sizing: border-box;
+        }
+        .subbox31{
+            margin-left: 215px;
+        }
+        button{
+            background-color: blue;
+            float: left;
+             border-radius: 10px;
+            text-align: center;
+            color: white;
+        }
+       
+        #b1{
+            float: left;
+            margin-right: 10px;
+            /* color: white; */
+        }
+        #b2{
+            float:left;
+            background-color: white;
+            color: black;
+        }
+       .box4{
+        width: 100%;
+        height: 150px;
+        background-color: white;
+        border: 2px solid white;
+        float: left;
+        text-align: center;
+        padding-top: 30px;
+        box-sizing: border-box;
+        color: dodgerblue;
+       }
+       .box7{
+        width: 100%;
+        height: 100px;
+        background-color: #eee;
+        border: 2px solid #eee;
+        float: left;
+        text-align: center;
+        padding-top: 25px;
+        box-sizing: border-box;
+        color: dodgerblue;
+       }
+      .box5{ /sup-parent/
+        width: 100%;
+        height: 300px;
+        background-color: white;
+        border: 2px solid white;
+        float: left;
+        /* box-sizing: border-box; */
+      }
+     .box51{ /parent/
+        width: 32%;
+        height: 300px;
+        border-radius: 6px;
+        padding: 30px;
+        background-color:blue;
+        border: 2px solid blue;
+        float: left;
+        box-sizing: border-box;
+        margin:0px 4px 2px 5px;
+        margin-left: 4px;
+     }
+        #box511{ /child/
+        width: 17%;
+        height: 60px;
+        border-radius: 50%;
+        background-color:white;
+        margin-left: 120px;
+        padding: 30px;
+        text-align: center;
+        }
+     .box52{
+        width: 32%;
+        height: 300px;
+        border-radius: 6px;
+        padding: 30px;
+        background-color: white;
+        border: 2px solid #f1e7e7;
+        float: left;
+        box-sizing: border-box;
+        margin:0px 5px 2px 5px;
+     }
+     .box521{
+        width: 17%;
+        height: 60px;
+        border-radius: 50%;
+        background-color:skyblue;
+        margin-left: 120px;
+        padding: 30px;
+     }
+     .box53{
+        width: 32%;
+        height: 300px;
+        border-radius: 6px;
+        padding: 30px;
+        background-color: white;
+        border: 2px solid #f1e7e7;
+        float: left;
+        box-sizing: border-box;
+        margin:0px 2px 2px 5px;
+     }
+     .box531{
+        width: 17%;
+        height: 60px;
+        border-radius: 50%;
+        background-color: blue;
+        margin-left: 120px;
+        padding: 30px;
+     }
+     .box6{
+        width: 100%;
+        height: 99px;
+        /* box-sizing: border-box; */
+        background-color:white;
+        border: 2px solid white;
+        float: left;
+        padding-top:25px;
+     }
+     #b6{
+        margin-left: 36%;
+        margin-top: 10px;
+     }
+     .box8{
+        width: 100%;
+        height: 400px;
+        background-color: #eee;
+        border: 2px solid #eee;
+        float: left;
+        box-sizing: border-box;
+     }
+     .box81{
+        width: 33%;
+        height: 200px;
+        border-radius: 5px;
+        padding: 30px;
+        background-color:#eee;
+        border: 2px solid #eee;
+        float: left;
+        box-sizing: border-box;
+     }
+     .box82{
+        width: 33%;
+        height: 200px;
+        border-radius: 5px;
+        padding: 30px;
+        background-color:#eee;
+        border: 2px solid #eee;
+        float:left;
+        box-sizing: border-box;
+     }
+.box83{
+        width: 33%;
+        height: 200px;
+        border-radius: 5px;
+        padding: 30px;
+        background-color:#eee;
+        border: 2px solid #eee;
+        float: left;
+        box-sizing: border-box;
+     }
+     .box84{
+        width: 33%;
+        height: 200px;
+        border-radius: 5px;
+        padding: 30px;
+        background-color:#eee;
+        border: 2px solid #eee;
+        float: left;
+        box-sizing: border-box;
+     }
+     .box85{
+        width: 33%;
+        height: 200px;
+        border-radius: 5px;
+        padding: 30px;
+        background-color:#eee;
+        border: 2px solid #eee;
+        float: left;
+        box-sizing: border-box;
+     }
+    .box86{
+        width: 33%;
+        height: 200px;
+        border-radius: 5px;
+        padding: 30px;
+        background-color:#eee;
+        border: 2px solid #eee;
+        float: left;
+        box-sizing: border-box;
+     }
+    </style>
+</head>
+<body>
+    <div class="main">
+      <p> <div class="box1">
+            <div class="subbox1">
+                <i class="fa-sharp fa-solid fa-square-envelope"></i>
+                <input type="email">
+            </div>
+            <div class="subbox2">
+                24/7 Support 1800-200-0300
+            </div>
+            <div class="subbox3">
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="subbox4">
+                <i class="fa-solid fa-headphones"></i>
+            </div>
+            <div class="subbox5">
+                <i class="fa-brands fa-linkedin"></i> 
+            </div>
+            <div class="subbox6">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="subbox7">
+                <i class="fi fi-br-inbox-in"></i>  
+                &nbsp;<u>Callback</u>
+            </div>
+        </div></p> 
+        <div class="box2">
+            <div class="subbox21">
+            <img src="arrow.png" width="40px" height="40px"/>
+            </div>
+            <div class="subbox22">
+                <b>PathSoft</b>
+            </div>
+            <div class="subbox23">
+                <b>About</b>
+            </div>
+            <div class="subbox24">
+                <b>Services</b>
+            </div>
+            <div class="subbox25">
+                <b>Pricing</b>
+            </div>
+            <div class="subbox26">
+                <b> Dymons</b>
+            </div>
+            <div class="subbox27">
+                <b> Pages</b><select>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                </select>
+            </div>
+            <div class="subbox28">
+                <b> Blog</b><select>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                </select>
+            </div>
+            <div class="subbox29">
+                <b>Contact Us</b>
+            </div>
+            <div class="subbox210">
+                <!-- <i class="fa-sharp fa-regular fa-magnifying-glass"></i> -->
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="subbox211">
+                <b> En</b>
+            </div>
+        </div><!--end box2-->
+        <div class="box3">
+            <div class="subbox31">
+                <h1>IT Solution<br>for You Business</h1>
+                <h3>Since our establishment, we have been delly,<br>ering high-quality and sustainable software<br>solution for corporate business purpose.</h3>
+                <div id="b1">
+                <button id="b1" style="width: 150px;height: 50px;"><h3> Learn  More <b>⇾</b></h3></button>
+                </div >
+                <div id="b2">
+                <button id="b2" style="width: 150px;height: 50px;"><h3> Get in Touch <b>⇾</b></h3></button></div>
+                </div><br><br><br><br><br><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.youtube.com/watch?v=qpIdoaaPa6U"><input type="radio" name="r1"></a>
+                                                     <input type="radio" name="r1" checked>
+                                                     <input type="radio" name="r1">
+                                                     <input type="radio" name="r1">
+        </div>
+        <div class="box4">
+            APLES WHAT WE SERY
+            <h2 style="margin-top: 0px; margin-bottom: 0px; color: black;">Our Services</h2>
+        </div>
+        <div class="box5">
+            <div class="box51">
+                <div id="box511">
+                    <img src="setting.png" style="width:60px" style=" height:60px" style="margin-top: 10px;" alt="">
+                </div>
+                <h2 style="text-align: center; color:white;">Corporate Solution</h2><h4 style="text-align: center;color: white;">Need specific software for your<br>company? We are ready to<br>develop.</h4>
+            </div>
+            <div class="box52">
+                <div class="box521">
+                    <img src="customer-service.png" style="width:60px; color: white;" style=" height:60px" style="margin-top: 10px;" alt="">
+                </div>
+                <h2 style="text-align: center; color:black;">Call Center Solutions</h2><h4 style="text-align: center;color: black;">Our expert custom<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;products of any complexity<br>for call center.</h4>
+            </div>
+            <div class="box53">
+                <div class="box531">
+                    <img src="cloud-download.png" style="width:60px; color: white;" style=" height:60px" style="margin-top: 10px;" alt="">
+                </div>
+                <h2 style="text-align: center; color:black;">Cloud Development</h2><h4 style="text-align: center;color: black;">We can also offer you<br>repitable cloud development<br>solutions.</h4>
+            </div>
+        </div><!--box5 end-->
+        <div class="box6">
+            <button style="text-align: center;width: 28%; height:50%;" id="b6"><h3>See All Services</h3</button>
+        </div>
+        <div class="box7">
+            contribution
+            <h2 style="margin-top: 0px; margin-bottom: 0px; color: black;">Why Choose Us</h2>
+        </div>
+        <div class="box8">
+            <div class="box81">
+               &nbsp; &nbsp; &nbsp;<b style="color: blue;">01</b> <b>———</b><b>&nbsp;High Quality</b><h5 style="margin-left:90px;">We use top-notch hardware to<br>develop the most efficient apps<br>for our costomers</h5>
+            </div>
+            <div class="box82">
+                &nbsp; &nbsp; &nbsp;<b style="color: blue;">02</b> <b>———</b><b>&nbsp;Dedicated 24\7<br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Support</b><h5 style="margin-left:90px;">You can rely on our 24\7 touch<br>support that will glady solve<br>any app issue you may have.</h5>
+            </div>
+            <div class="box83">
+                &nbsp; &nbsp; &nbsp;<b style="color: blue;">03</b> <b>———</b><b>&nbsp;30-Day Money-back<br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Guarantee</b><h5 style="margin-left:90px;">If you are not satyfication with our<br>apps,we will return your<br>money app issue you may have.</h5>
+            </div>
+            <div class="box84">
+                &nbsp; &nbsp; &nbsp;<b style="color: blue;">04</b> <b>———</b><b>&nbsp;Agile and Fast<br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Working Style</b><h5 style="margin-left:90px;">Chandan Kumar Sahani.<br>applicated,we will return your<br>money app issue you may have.</h5>
+            </div>
+            <div class="box85">
+                &nbsp; &nbsp; &nbsp;<b style="color: blue;">05</b> <b>———</b><b>&nbsp;Some Apps<br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;are Free</b><h5 style="margin-left:90px;">We also develop free apps that<br>apps,we will return your<br>money app issue you may have.</h5>
+            </div>
+            <div class="box86">
+                &nbsp; &nbsp; &nbsp;<b style="color: blue;">06</b> <b>———</b><b>&nbsp;High Level of<br>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Usability</b><h5 style="margin-left:90px;">All our products have high us-<br>ability allowing user to easily<br>operate the apps.</h5>
+            </div>
+            </div>
+        </div>
+ </div>
+</body>
+</html>

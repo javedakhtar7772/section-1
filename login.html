@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <style>
+
+        :root{
+            --theme-color: rgb(200, 125, 45);
+        }
+        *{
+            font-family: Montserrat;
+        }
+        .mycard{
+            border: 1px solid var(--theme-color);
+            background-color: white;
+            width: 20%;
+            padding: 40px;
+        }
+        body{
+            /*background-color: #ccc;*/
+            background-image: url('https://www.indiantvinfo.com/media/2023/01/OTT-Release-Paththaan-Movie.jpg');
+            background-size: cover;
+            backdrop-filter: blur(5px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0px;
+        }
+        .title{
+            text-align: center;
+            font-size: 30px;
+            font-family: Montserrat;
+        }
+        .myinput, .mylink1, .mylink2, .mybtn{
+            display: block;
+        }
+        .myinput{
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom:  20px;
+            border: none;
+            outline: none;
+            border-bottom: 2px solid var(--theme-color);
+        }
+        .mybtn{
+            margin-top: 20px;
+            margin-bottom: 30px;
+            width: 100%;
+            padding: 10px;
+            background-color: var(--theme-color);
+            color: white;
+            border: none;
+            font-weight: bold;
+        }
+        .info{
+            font-size: 15px;
+            color: gray;
+            text-align: center;
+
+        }
+        .mylink2{
+            text-align: center;
+            font-weight: bold;
+            text-decoration: none;
+            color: var(--theme-color);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="mycard">
+    <form>
+        <h3 class="title">Sign In</h3>
+
+        <input class="myinput" type="email" placeholder="Email Address">
+        <input class="myinput" type="password" placeholder="Enter Password">
+
+        <a href="" class="mylink1">Forgot Password</a>
+        <button class="mybtn">Submit</button>
+    </form>
+        <p class="info">Not Registered yet</p>
+        <a href="" class="mylink2">Singup Now</a>
+
+    </div>
+</body>
+</html>

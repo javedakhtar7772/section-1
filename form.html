@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>student form</h2>
+        <br><br>
+        <label>Full name</label>
+        <input type="text" minlength="4" required>
+        <br><br>
+        <label> Email Address</label>
+        <input type="email" minlength="5" required>
+        <br><br>
+        <label>Contect No</label>
+        <input type="number" min="100000000" max="999999999"  minlength= " 10" required>
+        <br><br>
+        <label>Addess</label>
+        <br><br>
+        <textarea  cols="30" rows="10"></textarea>
+        <br><br>
+        <label> Date of Birth</label>
+        <input type="date">
+        <br><br>
+        <label for="photo">uplode your photo </label>
+        <input hidden id="photo" type="file">
+        <br><br>
+        <label> Select Gender</label>
+        <input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <br><br>
+        <label>State</label>
+        <select>
+            <option> UP</option> 
+            <option>MP</option> 
+            <option>AP</option> 
+        </select>
+        <br><br>
+        <label>Course</label>
+        <input type="text" list="course">
+        <datalist id="course">
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>MCA</option>
+            <option>MBA</option>
+        </datalist>
+        <br><br>
+        <button>Submit</button>
+    
+    </form>
+</body>
+</html>

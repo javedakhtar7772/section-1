@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        body{
+            background-image: url(Pathaan-6.jpg);
+        }
+        .mycard{
+            width: 25%;
+            
+        }
+        @media (max-width: 1200px) {
+            .mycard{
+              width: 40%;
+            }
+            }
+        @media (max-width: 1000px) {
+            .mycard{
+              width:75% %;
+            }
+            }
+        @media (max-width: 600px) {
+            .mycard{
+              width: 90%;
+            }
+            }
+    </style>
+  </head>
+  <body class="d-flex justify-content-center align-items-center vh-100">
+    
+    <div class="card mycard shadow-lg border-primary" >
+        <div class="card-body p-5">
+            <p class="h3 text-center my-5">Sign In</p>
+
+            <input class="form-control mb-4" type="text" placeholder="Email Address" >
+            <input class="form-control mb-4"  type="password" placeholder="Password" >
+
+            <a href="" class="fw-bold">Forgot password</a>
+            <button class="btn btn-primary mt-5 w-100">Submit</button>
+            <p class="text-center mt-4 text-muted">Not Registered Yet?</p>
+            <a href="" class="d-block text-center fw-bold" style="text-decoration: none;">SignUp Now</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <style>
+        p{
+            font-size: 30px;
+            text-decoration: underline overline;
+            text-decoration: 3px underline blue;
+            background-color: magenta;
+            color: red;
+        }
+        .mytag{
+            font-size: 40px;
+            background-color: white;
+            color: black;
+        }
+        #my-unique-tag{
+            border-width: 5px 10px 5px 10px;
+            border: 5px solid darkgreen;
+            color: green;
+            text-align: center;
+            font-style: italic;
+            font-size: 40px;
+        }
+        #mytag2{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>Internal CSS is used to style entire page at once </p>
+    <p>Internal CSS is applied using style inside head tag</p>
+
+    <p class="mytag" id="mytag2" style="color: blue;">Name Selectors are used to select elements by their tag name </p>
+    <h1 class="mytag">Class Selectors are used to select elements by their class name </h1>
+
+    <h2 id="my-unique-tag">Id selectors are used to select elements by their id name </h2>
+      
+</body>
+</html>
